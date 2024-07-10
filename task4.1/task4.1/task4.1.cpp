@@ -7,13 +7,10 @@
 int countpath = 0;
 
 
-std::vector<int> arrfromfile() 
+std::vector<int> arrfromfile(std::string pathF) 
 {
-    std::string FilePath = "";
-    std::cout << "Введите путь до файла: " << std::endl;
-    std::cin >> FilePath;
 
-    std::ifstream fin(FilePath);
+    std::ifstream fin(pathF);
     int g;
     std::vector<int> arr;
     if (!fin.is_open()) {
@@ -75,10 +72,16 @@ int minpath(double median, std::vector<int> arr)
 
 
 
-int main() {
+int main(int argc, char* argv[]) {
     setlocale(LC_ALL, "ru");
+    if (argc != 2) {
+        std::cout << "Expected 2 args" << std::endl;
+        exit(1);
+    }
 
-    std::vector<int> array = arrfromfile();
+    std::string pathF = argv[1];
+
+    std::vector<int> array = arrfromfile(pathF);
 
     int median = findMedian(array, array.size());
 

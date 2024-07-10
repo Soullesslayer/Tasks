@@ -1,6 +1,6 @@
 ﻿  task4.1.cpp
-F:\CCCtest\task4.1\task4.1\task4.1.cpp(68,57): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
-F:\CCCtest\task4.1\task4.1\task4.1.cpp(69,56): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
-F:\CCCtest\task4.1\task4.1\task4.1.cpp(83,46): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-F:\CCCtest\task4.1\task4.1\task4.1.cpp(83,16): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-  task4.1.vcxproj -> F:\CCCtest\task4.1\x64\Debug\task4.1.exe
+C:\Users\Sells\Documents\Git\Tasks\task4.1\task4.1\task4.1.cpp(65,57): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\Sells\Documents\Git\Tasks\task4.1\task4.1\task4.1.cpp(66,56): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\Sells\Documents\Git\Tasks\task4.1\task4.1\task4.1.cpp(86,46): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Sells\Documents\Git\Tasks\task4.1\task4.1\task4.1.cpp(86,16): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  task4.1.vcxproj -> C:\Users\Sells\Documents\Git\Tasks\task4.1\x64\Debug\task4.1.exe

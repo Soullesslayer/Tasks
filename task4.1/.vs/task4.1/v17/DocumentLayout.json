@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\CCCtest\\task4.1\\",
+  "WorkspaceRootPath": "C:\\Users\\Sells\\Documents\\Git\\Tasks\\task4.1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E729089-F021-4FA6-9445-49BD8925BFBF}|task4.1\\task4.1.vcxproj|F:\\CCCtest\\task4.1\\task4.1\\task4.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6E729089-F021-4FA6-9445-49BD8925BFBF}|task4.1\\task4.1.vcxproj|C:\\Users\\Sells\\Documents\\Git\\Tasks\\task4.1\\task4.1\\task4.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6E729089-F021-4FA6-9445-49BD8925BFBF}|task4.1\\task4.1.vcxproj|solutionrelative:task4.1\\task4.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "task4.1.cpp",
-              "DocumentMoniker": "F:\\CCCtest\\task4.1\\task4.1\\task4.1.cpp",
+              "DocumentMoniker": "C:\\Users\\Sells\\Documents\\Git\\Tasks\\task4.1\\task4.1\\task4.1.cpp",
               "RelativeDocumentMoniker": "task4.1\\task4.1.cpp",
-              "ToolTip": "F:\\CCCtest\\task4.1\\task4.1\\task4.1.cpp",
+              "ToolTip": "C:\\Users\\Sells\\Documents\\Git\\Tasks\\task4.1\\task4.1\\task4.1.cpp",
               "RelativeToolTip": "task4.1\\task4.1.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAANAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAE8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-05T12:42:20.637Z",
               "EditorCaption": ""
