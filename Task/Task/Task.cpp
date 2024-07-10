@@ -27,7 +27,7 @@ std::string solve(int m, int n)
        
         if (k!= 1)
         {
-            re += " " + std::to_string(k) ; /// Пробел в выводе поставлен для разделения двузначных чисел 
+            re  += std::to_string(k) ;
         }
         
     } while (k != 1);
@@ -36,13 +36,19 @@ std::string solve(int m, int n)
 }
 
  
-int main()
+int main(int argc, char* argv[])
 {
    setlocale(LC_ALL, "ru");
-   int n, m;
-   std::cin >> n >> m;
+   
+   if (argc != 3) {
+       std::cerr << "Program is of the form: " << argv[0] << " <inp1> <inp2>\n";
+       return 1;
+   }
+   std::string arg1 = argv[1];
+   std::string arg2 = argv[2];
+  
     
-   std::cout << solve(m,n);
+  std::cout << solve(std::stoi(arg2), std::stoi(arg1));
 
     return 0;
 }
