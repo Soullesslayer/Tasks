@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\CCCtest\\task2\\",
+  "WorkspaceRootPath": "C:\\Users\\Sells\\Documents\\Git\\Tasks\\task2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1165514A-E4B5-4870-80E4-6039BBA37AED}|task2\\task2.vcxproj|F:\\CCCtest\\task2\\task2\\task2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1165514A-E4B5-4870-80E4-6039BBA37AED}|task2\\task2.vcxproj|C:\\Users\\Sells\\Documents\\Git\\Tasks\\task2\\task2\\task2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1165514A-E4B5-4870-80E4-6039BBA37AED}|task2\\task2.vcxproj|solutionrelative:task2\\task2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "task2.cpp",
-              "DocumentMoniker": "F:\\CCCtest\\task2\\task2\\task2.cpp",
+              "DocumentMoniker": "C:\\Users\\Sells\\Documents\\Git\\Tasks\\task2\\task2\\task2.cpp",
               "RelativeDocumentMoniker": "task2\\task2.cpp",
-              "ToolTip": "F:\\CCCtest\\task2\\task2\\task2.cpp",
+              "ToolTip": "C:\\Users\\Sells\\Documents\\Git\\Tasks\\task2\\task2\\task2.cpp",
               "RelativeToolTip": "task2\\task2.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABQAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-03T13:06:16.007Z",
               "EditorCaption": ""

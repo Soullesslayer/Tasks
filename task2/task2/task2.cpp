@@ -3,14 +3,11 @@
 #include <fstream>
 #include <string>
 
-void circlefile()
+void circlefile(std::string pathC, std::string pathD)
 {
-    std::string pathC, pathD;
 
     double xc{}, yc{}, r{}, xd, yd;
 
-    std::cout << "Введите путь до файла с окружностью" << std::endl;
-    std::cin >> pathC; 
     std::ifstream file(pathC);
 
       if (file.is_open())
@@ -22,10 +19,10 @@ void circlefile()
       { 
           std::cout << "Файл не найден"; return; 
       }
-    std::cout << "Введите путь до файла с точками" << std::endl;
 
-    std::cin >> pathD; 
+
     std::ifstream dots(pathD);
+
 
     if (dots.is_open())
     {
@@ -52,13 +49,14 @@ void circlefile()
 }
 
 
-
-
-int main()
+int main(int argc, char *arcv[])
 {
     setlocale(LC_ALL, "Ru");
+    std::string pathc = arcv[1];
+    std::string pathd = arcv[2];
 
-    circlefile();
+
+    circlefile(pathc, pathd);
      return 0;
 }
 
